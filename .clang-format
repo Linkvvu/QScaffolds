@@ -1,0 +1,56 @@
+# https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+Language: Cpp
+ 
+ColumnLimit: 140
+
+IndentWidth: 2
+
+TabWidth: 2
+
+AccessModifierOffset: -2
+
+BreakBeforeBraces: WebKit
+
+PointerAlignment: Left
+
+AlignArrayOfStructures: Left
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+
+IndentPPDirectives: BeforeHash
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+
+AlignEscapedNewlines: Left
+
+BinPackArguments: false
+
+BinPackParameters: OnePerLine
+
+AllowAllArgumentsOnNextLine: false
+
+AllowAllParametersOfDeclarationOnNextLine: false
+
+BreakConstructorInitializers: BeforeComma
+
+Cpp11BracedListStyle: true
+
+EmptyLineBeforeAccessModifier: Always
+
+FixNamespaceComments: true
+
+# IncludeBlocks: Regroup
+
+SpaceAfterTemplateKeyword: true
+
+SpacesBeforeTrailingComments: 1
+
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 1
+
+AlwaysBreakTemplateDeclarations: Yes
